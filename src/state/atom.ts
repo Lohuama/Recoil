@@ -5,16 +5,16 @@ export const listaDeEventosState = atom<IEvento[]>({
     key: 'listaDeEventosState',
     default: [
         {
-            "descricao": "Estudar React",
-            "inicio": new Date("2024-02-09T09:00"),
-            "fim": new Date("2024-02-09T13:00"),
+            "descricao": "Lohuama Lima",
+            "inicio": new Date("2024-04-23T09:00"),
+            "fim": new Date("2024-04-23T10:00"),
             "completo": false,
             "id": 1642342747,
         },
         {
-            "descricao": "Estudar Recoil",
-            "inicio": new Date("2024-02-08T09:00"),
-            "fim": new Date("2024-02-08T11:00"),
+            "descricao": "Fernanda Lira",
+            "inicio": new Date("2024-04-23T11:00"),
+            "fim": new Date("2024-04-23T11:30"),
             "completo": false,
             "id": 1642342959,
         },
