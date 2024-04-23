@@ -14,7 +14,7 @@ export const listaDeEventosState = atom<IEvento[]>({
         {
             "descricao": "Fernanda Lira",
             "inicio": new Date("2024-04-23T11:00"),
-            "fim": new Date("2024-04-23T11:30"),
+            "fim": new Date("2024-04-23T12:00"),
             "completo": false,
             "id": 1642342959,
         },
