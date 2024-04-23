@@ -43,14 +43,14 @@ const Formulario: React.FC = () => {
   return (<form className={style.Formulario} onSubmit={submeterForm}>
     <h3 className={style.titulo}>Novo evento</h3>
 
-    <label>Descrição</label>
+    <label>Nome</label>
     <input 
       type="text" 
       name="descricao"
       id="descricao"
       className={style.input}
       onChange={evento => setDescricao(evento.target.value)} 
-      placeholder="Descrição" value={descricao} 
+      placeholder="Nome" value={descricao} 
       autoComplete="off"
       required />
 
